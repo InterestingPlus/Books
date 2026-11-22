@@ -83,13 +83,13 @@
       "metadataStatus": "verified_bio"
     },
     {
-      "id": "author_unknown_time_management",
-      "name": "Unknown",
-      "sortName": "Unknown",
-      "bio": null,
-      "photoUrl": "https://books-zentra.netlify.app/authors/author_unknown_time_management.webp",
-      "profileUrl": null,
-      "metadataStatus": "needs_review"
+      "id": "author_sudhir_dixit",
+      "name": "Dr. Sudhir Dixit",
+      "sortName": "Dixit, Sudhir",
+      "bio": "Dr. Sudhir Dixit is an Indian author and prolific Hindi translator who has written popular self-development books—most notably Time Management—and translated over 150 international bestsellers into Hindi.",
+      "photoUrl": "https://books-zentra.netlify.app/authors/author_sudhir_dixit.webp",
+      "profileUrl": "https://books.google.com/books/about/Time_Management_Hindi.html?id=Q3MYEAAAQBAJ",
+      "metadataStatus": "verified_bio"
     },
     {
       "id": "author_napoleon_hill",
@@ -1320,7 +1320,7 @@
       "description": "Human behavior, communication and ways of thinking.",
       "bookIds": [
         "what-every-body-is-saying",
-        "the-power-of-your-subconscious-mind",
+        "the-power-of-your-subconscious-mind-hi",
         "the-art-of-seduction",
         "13-things-mentally-strong-people-dont-do",
         "the-48-laws-of-power",
@@ -1350,7 +1350,7 @@
       "name": "Productivity & Business",
       "description": "Work, leadership, entrepreneurship and practical productivity.",
       "bookIds": [
-        "time-management",
+        "time-management-hi",
         "the-hard-thing-about-hard-things",
         "the-back-of-the-napkin",
         "building-a-second-brain",
@@ -1393,7 +1393,7 @@
         "the-intelligent-investor",
         "the-millionaire-next-door",
         "you-are-a-badass-at-making-money",
-        "rich-dads-cashflow-quadrant",
+        "rich-dads-cashflow-quadrant-hi",
         "rich-dads-guide-to-investing",
         "retire-young-retire-rich-hi",
         "rich-dad-poor-dad-hi",
@@ -1846,38 +1846,41 @@
       ]
     },
     {
-      "id": "time-management",
+      "id": "time-management-hi",
       "title": "Time Management",
       "subtitle": null,
       "authorIds": [
-        "author_unknown_time_management"
+        "author_sudhir_dixit"
       ],
-      "primaryAuthorId": "author_unknown_time_management",
+      "primaryAuthorId": "author_sudhir_dixit",
       "categoryId": "productivity-business",
       "category": "Productivity & Business",
       "language": "Hindi",
       "cover": {
-        "url": "https://books-zentra.netlify.app/productivity-business/time-management.webp",
+        "url": "https://books-zentra.netlify.app/productivity-business/time-management-hi.webp",
         "provider": "Netlify",
         "status": "available",
         "editionMatchConfirmed": true
       },
       "pdf": {
         "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/productivity-business/time-management.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/productivity-business/time-management.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/productivity-business/time-management.pdf",
+        "sourceUrl": "https://books-zentra.netlify.app/productivity-business/time-management-hi.pdf",
+        "readerUrl": "https://books-zentra.netlify.app/productivity-business/time-management-hi.pdf",
+        "downloadUrl": "https://books-zentra.netlify.app/productivity-business/time-management-hi.pdf",
         "accessStatus": "public",
         "requiresPublicLinkAccess": false
       },
-      "description": "A title-only placeholder. Many unrelated books use this generic title, and the supplied information is not enough to identify this Hindi edition or write a trustworthy book-specific summary.",
+      "description": "Dr. Sudhir Dixit presents thirty practical principles in Hindi for making the most of every 24-hour day, covering prioritization, scheduling, overcoming procrastination, Parkinson's Law and focusing energy on high-value goals.",
       "summary": {
-        "short": "A title-only placeholder. Many unrelated books use this generic title, and the supplied information is not enough to identify this Hindi edition or write a trustworthy book-specific summary.",
+        "short": "Dr. Sudhir Dixit presents thirty practical principles in Hindi for making the most of every 24-hour day, covering prioritization, scheduling, overcoming procrastination, Parkinson's Law and focusing energy on high-value goals.",
         "keyTakeaways": [
-          "Read the PDF title page and publication details to identify the author and edition."
+          "Track how you currently spend your 24 hours and calculate the value of your time",
+          "prioritize high-impact tasks and plan your schedule deliberately",
+          "apply Parkinson's Law and avoid multitasking to finish work faster",
+          "protect your energy through healthy daily habits and focused routines."
         ],
         "chapterSummaries": [],
-        "summaryStatus": "pending_identification"
+        "summaryStatus": "editorial_summary"
       },
       "tags": [
         "Time Management",
@@ -1885,10 +1888,10 @@
         "Hindi"
       ],
       "metadata": {
-        "isbn": null,
-        "pageCount": null,
-        "publicationYear": null,
-        "publisher": null,
+        "isbn": "9788183220187",
+        "pageCount": 128,
+        "publicationYear": 2011,
+        "publisher": "Manjul Publishing House",
         "editionMatchConfirmed": false,
         "referenceEditionOnly": true
       },
@@ -1899,8 +1902,10 @@
       "featured": false,
       "popular": false,
       "relatedBookIds": [],
-      "metadataStatus": "needs_review",
-      "metadataSources": []
+      "metadataStatus": "verified",
+      "metadataSources": [
+        "https://books.google.com/books/about/Time_Management_Hindi.html?id=Q3MYEAAAQBAJ"
+      ]
     },
     {
       "id": "think-and-grow-rich-en",
@@ -2295,7 +2300,7 @@
       ]
     },
     {
-      "id": "the-power-of-your-subconscious-mind",
+      "id": "the-power-of-your-subconscious-mind-hi",
       "title": "The Power of Your Subconscious Mind",
       "subtitle": null,
       "authorIds": [
@@ -2306,16 +2311,16 @@
       "category": "Psychology & Mindset",
       "language": "Hindi",
       "cover": {
-        "url": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind.webp",
+        "url": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind-hi.webp",
         "provider": "Netlify",
         "status": "available",
         "editionMatchConfirmed": true
       },
       "pdf": {
         "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind.pdf",
+        "sourceUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind-hi.pdf",
+        "readerUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind-hi.pdf",
+        "downloadUrl": "https://books-zentra.netlify.app/psychology-mindset/the-power-of-your-subconscious-mind-hi.pdf",
         "accessStatus": "public",
         "requiresPublicLinkAccess": false
       },
@@ -9766,7 +9771,7 @@
       "metadataSources": []
     },
     {
-      "id": "rich-dads-cashflow-quadrant",
+      "id": "rich-dads-cashflow-quadrant-hi",
       "title": "Rich Dad's CASHFLOW Quadrant",
       "subtitle": "Rich Dad's Guide to Financial Freedom",
       "authorIds": [
@@ -9777,7 +9782,7 @@
       "category": "Finance & Wealth",
       "language": "Hindi",
       "cover": {
-        "url": "https://books-zentra.netlify.app/finance-wealth/rich-dads-cashflow-quadrant.webp",
+        "url": "https://books-zentra.netlify.app/finance-wealth/rich-dads-cashflow-quadrant-hi.webp",
         "provider": "Netlify",
         "status": "available",
         "editionMatchConfirmed": true
@@ -10775,7 +10780,7 @@
     "Bilingual editions (English and Hindi copies of the same work) are bidirectionally cross-linked via relatedBookIds: Think and Grow Rich, Deep Work, No Excuses! / Aatma Anushasan Ki Shakti, Meditations, and The Magic.",
     "Main books and their summary/companion editions are bidirectionally cross-linked via relatedBookIds: Discipline Is Destiny, Rework, The E-Myth Revisited, The Almanack of Naval Ravikant, Master Your Emotions / Master Your Thinking, and Vigyan Bhairav Tantra / The Book of Secrets.",
     "Three new categories (Fiction & Literature, Technology & Design, History & Society) were added to cleanly organize fiction, programming/design and history books; ensure matching folder names exist on Netlify.",
-    "Titles with generic or ambiguous filenames (Your Ultimate Guide to Success, Time Management, The Law of Attraction, 75 Day Soft Challenge Planner, Getting It Done, Duckett, and Swadeshi Chikitsa) are marked needs_review or partially_verified until verified against the PDF title pages.",
+    "Titles with generic or ambiguous filenames (Your Ultimate Guide to Success, The Law of Attraction, 75 Day Soft Challenge Planner, Getting It Done, Duckett, and Swadeshi Chikitsa) are marked needs_review or partially_verified until verified against the PDF title pages.",
     "Book summaries are original editorial summaries prepared from public bibliographic descriptions and general knowledge; they are not copied from the PDF files.",
     "Only publish PDFs and images for which Zentra has the necessary distribution and display rights."
   ]
