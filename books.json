@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "catalogId": "zentra-main-catalog",
   "catalogName": "Zentra Books",
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-22",
   "defaultLanguage": "en",
   "supportedLanguages": [
     "English",
@@ -3301,12 +3301,14 @@
         "editionMatchConfirmed": true
       },
       "pdf": {
-        "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/self-help-personal-development/aatma-anushasan-ki-shakti-hi.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/self-help-personal-development/aatma-anushasan-ki-shakti-hi.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/self-help-personal-development/aatma-anushasan-ki-shakti-hi.pdf",
-        "accessStatus": "public",
-        "requiresPublicLinkAccess": false
+        "provider": "Google Drive",
+        "fileId": "1kAsuJdWgWmQKIS0yLK3Z-S08MraBiifk",
+        "sourceUrl": "https://drive.google.com/file/d/1kAsuJdWgWmQKIS0yLK3Z-S08MraBiifk/view?usp=sharing",
+        "readerUrl": "https://drive.google.com/file/d/1kAsuJdWgWmQKIS0yLK3Z-S08MraBiifk/preview",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1kAsuJdWgWmQKIS0yLK3Z-S08MraBiifk",
+        "accessStatus": "not_verified",
+        "requiresPublicLinkAccess": true,
+        "notes": "Test sharing permissions, redirects, MIME type and byte-range support before production streaming. Google Drive may show confirmation pages or rate limits for some files."
       },
       "description": "Hindi-language edition of Brian Tracy's No Excuses! The Power of Self-Discipline, examining how consistent self-control drives achievement across personal goals, business and daily life.",
       "summary": {
@@ -6202,12 +6204,14 @@
         "editionMatchConfirmed": true
       },
       "pdf": {
-        "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/psychology-mindset/mind-games.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/psychology-mindset/mind-games.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/psychology-mindset/mind-games.pdf",
-        "accessStatus": "public",
-        "requiresPublicLinkAccess": false
+        "provider": "Google Drive",
+        "fileId": "1vuTprIku4JZhyuVvpDYKerwXujFKTiIs",
+        "sourceUrl": "https://drive.google.com/file/d/1vuTprIku4JZhyuVvpDYKerwXujFKTiIs/view?usp=sharing",
+        "readerUrl": "https://drive.google.com/file/d/1vuTprIku4JZhyuVvpDYKerwXujFKTiIs/preview",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1vuTprIku4JZhyuVvpDYKerwXujFKTiIs",
+        "accessStatus": "not_verified",
+        "requiresPublicLinkAccess": true,
+        "notes": "Test sharing permissions, redirects, MIME type and byte-range support before production streaming. Google Drive may show confirmation pages or rate limits for some files."
       },
       "description": "Michael Powell explores optical illusions, memory quirks, persuasion and cognitive shortcuts to show how the human brain constructs—and occasionally misreads—everyday reality.",
       "summary": {
@@ -6937,12 +6941,14 @@
         "editionMatchConfirmed": true
       },
       "pdf": {
-        "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/history-society/sapiens-hi.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/history-society/sapiens-hi.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/history-society/sapiens-hi.pdf",
-        "accessStatus": "public",
-        "requiresPublicLinkAccess": false
+        "provider": "Google Drive",
+        "fileId": "1TCH8bY_E5SiWXLIBuNstAlu0FlqKy3C2",
+        "sourceUrl": "https://drive.google.com/file/d/1TCH8bY_E5SiWXLIBuNstAlu0FlqKy3C2/view?usp=sharing",
+        "readerUrl": "https://drive.google.com/file/d/1TCH8bY_E5SiWXLIBuNstAlu0FlqKy3C2/preview",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1TCH8bY_E5SiWXLIBuNstAlu0FlqKy3C2",
+        "accessStatus": "not_verified",
+        "requiresPublicLinkAccess": true,
+        "notes": "Test sharing permissions, redirects, MIME type and byte-range support before production streaming. Google Drive may show confirmation pages or rate limits for some files."
       },
       "description": "Hindi-language edition of Yuval Noah Harari's sweeping history of Homo sapiens, tracing the Cognitive, Agricultural and Scientific Revolutions and how shared myths enabled large-scale human cooperation.",
       "summary": {
@@ -9777,12 +9783,14 @@
         "editionMatchConfirmed": true
       },
       "pdf": {
-        "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/finance-wealth/rich-dads-cashflow-quadrant.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/finance-wealth/rich-dads-cashflow-quadrant.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/finance-wealth/rich-dads-cashflow-quadrant.pdf",
-        "accessStatus": "public",
-        "requiresPublicLinkAccess": false
+        "provider": "Google Drive",
+        "fileId": "1TO-6Z0vmLB90hMvyJU2R_HE9KJ-kcs-3",
+        "sourceUrl": "https://drive.google.com/file/d/1TO-6Z0vmLB90hMvyJU2R_HE9KJ-kcs-3/view?usp=sharing",
+        "readerUrl": "https://drive.google.com/file/d/1TO-6Z0vmLB90hMvyJU2R_HE9KJ-kcs-3/preview",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1TO-6Z0vmLB90hMvyJU2R_HE9KJ-kcs-3",
+        "accessStatus": "not_verified",
+        "requiresPublicLinkAccess": true,
+        "notes": "Test sharing permissions, redirects, MIME type and byte-range support before production streaming. Google Drive may show confirmation pages or rate limits for some files."
       },
       "description": "Hindi-language edition of Robert T. Kiyosaki's CASHFLOW Quadrant, introducing the four income quadrants—Employee (E), Self-Employed (S), Business Owner (B) and Investor (I)—and explaining the financial literacy and mindset needed to build cash-flowing assets.",
       "summary": {
@@ -10447,12 +10455,14 @@
         "editionMatchConfirmed": true
       },
       "pdf": {
-        "provider": "Netlify",
-        "sourceUrl": "https://books-zentra.netlify.app/spirituality/rigved-hi.pdf",
-        "readerUrl": "https://books-zentra.netlify.app/spirituality/rigved-hi.pdf",
-        "downloadUrl": "https://books-zentra.netlify.app/spirituality/rigved-hi.pdf",
-        "accessStatus": "public",
-        "requiresPublicLinkAccess": false
+        "provider": "Google Drive",
+        "fileId": "1qWQwgyLb_hsFu9HKBA3SFm5TCK6QQ1bQ",
+        "sourceUrl": "https://drive.google.com/file/d/1qWQwgyLb_hsFu9HKBA3SFm5TCK6QQ1bQ/view?usp=sharing",
+        "readerUrl": "https://drive.google.com/file/d/1qWQwgyLb_hsFu9HKBA3SFm5TCK6QQ1bQ/preview",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1qWQwgyLb_hsFu9HKBA3SFm5TCK6QQ1bQ",
+        "accessStatus": "not_verified",
+        "requiresPublicLinkAccess": true,
+        "notes": "Test sharing permissions, redirects, MIME type and byte-range support before production streaming. Google Drive may show confirmation pages or rate limits for some files."
       },
       "description": "Hindi-language edition of the Rigveda, the oldest of the four Vedas, comprising ten Mandalas of Vedic hymns (suktas) dedicated to cosmic order (Rta), nature, devotion and philosophical inquiry. Traditionally compiled by Maharishi Ved Vyasa.",
       "summary": {
