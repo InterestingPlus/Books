@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMAT 2027: 75-Day Study Plan &amp; Complete Section-Wise Syllabus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Google+Sans+Code:wght@400;500&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Balanced · Education & Personal Planning · Split hero (headline left, emphasis numeral right) · Pattern/Table -> Section Target Chart -> 3-Phase Band & Gantt -> Complete 5-Section Syllabus (from uploaded PDF) -> Daily Routine Table -> Pull Quote -> Exam Day Strategy -> Sources · Fraunces + Newsreader italic + Plus Jakarta Sans + Google Sans Code · Crisp Gallery White (#FFFFFF) + Deep Cobalt (#1D4ED8/#1E3A8A) + Teal (#0F766E/#115E59) · 0px image radius · Emphasis numeral (215+) · Full-bleed 3-phase study roadmap band · Horizontal target bar chart + 75-day Gantt timeline */
+
+:root {
+  --paper: #FFFFFF;
+  --band: #F1F5F9;
+  --ink: #0F172A;
+  --ink2: #334155;
+  --mute: #475569;
+  --hair: #CBD5E1;
+  --accent: #1D4ED8;
+  --accent-text: #1E3A8A;
+  --accent-2: #0F766E;
+  --accent-2-text: #115E59;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+.page {
+  padding: 68px clamp(24px, 10.4vw, 112px) 92px;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* Hero: Split headline left, emphasis numeral right */
+.hero {
+  align-items: end;
+  padding-bottom: 52px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.hero-main {
+  grid-column: 1 / 9;
+}
+
+.hero-stat {
+  grid-column: 9 / 13;
+  text-align: right;
+  padding-bottom: 6px;
+}
+
+h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(44px, 5.4vw, 76px);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  text-wrap: balance;
+  margin-bottom: 22px;
+}
+
+.deck {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink2);
+  max-width: 62ch;
+}
+
+.hero-num {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(68px, 7.5vw, 108px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--accent-text);
+  display: block;
+}
+
+.hero-num-cap {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--mute);
+  margin-top: 10px;
+  display: block;
+}
+
+/* Sections */
+.sec {
+  margin-top: 88px;
+}
+
+h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(30px, 3.4vw, 44px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-wrap: balance;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--ink2);
+  margin-bottom: 16px;
+}
+
+.measure {
+  max-width: 66ch;
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Answer-first verdict strip (open hairlines, 0 boxes) */
+.verdict-row {
+  margin-top: 40px;
+  padding-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.verdict-item {
+  border-top: 1px solid var(--hair);
+  padding-top: 16px;
+}
+
+.verdict-val {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--accent-text);
+  white-space: nowrap;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.verdict-desc {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink2);
+  margin: 0;
+}
+
+/* Open tables */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 28px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+thead th {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-align: left;
+  color: var(--mute);
+  padding: 12px 14px 12px 0;
+  border-bottom: 2px solid var(--ink);
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 14px 14px 14px 0;
+  border-bottom: 1px solid var(--hair);
+  color: var(--ink2);
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.num {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 14px;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.num-accent {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--accent-text);
+}
+
+tr.total-row td {
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  font-weight: 700;
+  color: var(--ink);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* Figures & SVGs */
+figure {
+  margin-top: 44px;
+  width: 100%;
+}
+
+.fig-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 14px;
+  max-width: 60ch;
+}
+
+figcaption {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--mute);
+  margin-top: 12px;
+}
+
+/* Full-bleed band (max 1 per report) */
+.full-bleed {
+  background: var(--band);
+  margin-left: calc(-1 * clamp(24px, 10.4vw, 112px));
+  margin-right: calc(-1 * clamp(24px, 10.4vw, 112px));
+  padding: 68px clamp(24px, 10.4vw, 112px);
+}
+
+.phase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px;
+  margin-top: 32px;
+}
+
+.phase-col {
+  border-top: 2px solid var(--ink);
+  padding-top: 18px;
+}
+
+.phase-dates {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 13px;
+  color: var(--accent-text);
+  display: block;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.phase-col ul {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.phase-col li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink2);
+}
+
+.phase-col li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--accent-text);
+  font-weight: 700;
+}
+
+/* Complete Section-Wise Syllabus (Open-Canvas Asymmetric Rows, 0 boxes) */
+.syl-block {
+  border-top: 2px solid var(--ink);
+  padding: 28px 0 36px;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.syl-block + .syl-block {
+  border-top: 1px solid var(--hair);
+}
+
+.syl-head {
+  grid-column: 1 / 5;
+}
+
+.syl-body {
+  grid-column: 5 / 13;
+}
+
+.syl-meta {
+  font-family: 'Google Sans Code', monospace;
+  font-size: 13px;
+  color: var(--accent-2-text);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.syl-tip {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--mute);
+  margin-top: 8px;
+}
+
+.topic-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px 24px;
+}
+
+.topic-grid li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.topic-grid li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent-text);
+  font-weight: 700;
+}
+
+/* Pull quote */
+.pull-quote {
+  margin: 72px 0;
+  padding: 32px 0 32px 32px;
+  border-left: 3px solid var(--accent);
+  max-width: 52ch;
+}
+
+.pull-quote p {
+  font-family: 'Newsreader', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(24px, 2.8vw, 34px);
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* Asymmetric split for exam-day strategy */
+.split-left {
+  grid-column: 1 / 5;
+}
+
+.split-right {
+  grid-column: 5 / 13;
+}
+
+.step-list {
+  list-style: none;
+  counter-reset: steps;
+}
+
+.step-list li {
+  counter-increment: steps;
+  position: relative;
+  padding: 18px 0 18px 44px;
+  border-top: 1px solid var(--hair);
+  color: var(--ink2);
+  font-size: 16px;
+}
+
+.step-list li::before {
+  content: counter(steps);
+  position: absolute;
+  left: 0;
+  top: 16px;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+/* Sources */
+.sources-sec {
+  margin-top: 84px;
+  padding-top: 32px;
+  border-top: 1px solid var(--hair);
+}
+
+.sources-list {
+  list-style: none;
+  counter-reset: src;
+  margin-top: 16px;
+  max-width: 72ch;
+}
+
+.sources-list li {
+  counter-increment: src;
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--mute);
+}
+
+.sources-list li::before {
+  content: counter(src) ".";
+  position: absolute;
+  left: 0;
+  font-family: 'Google Sans Code', monospace;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .hero-main, .hero-stat, .split-left, .split-right, .syl-head, .syl-body {
+    grid-column: 1 / 13;
+    text-align: left;
+  }
+  .verdict-row, .phase-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+<main class="page">
+
+  <!-- HERO -->
+  <header class="grid-12 hero">
+    <div class="hero-main">
+      <h1>215+ Marks Target Karein: 75 Din Mein CMAT 80+ Percentile</h1>
+      <p class="deck">
+        Official <a href="https://nta.ac.in/Download/Notice/Notice_20261123210726.pdf" target="_blank" rel="noopener noreferrer">NTA CMAT 2027 Notice</a> ke mutabik exam <strong>11 February 2027</strong> ko hai. 25 November 2026 se 7 February 2027 tak ke 75 din ka ye practical plan BCA final year ke saath roz 2.5–3 ghante dekar 80–85+ percentile laane ke liye banaya gaya hai—complete 5-section syllabus aur Gujarat ACPC government MCA cutoffs (<a href="https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/202605251744327138.pdf" target="_blank" rel="noopener noreferrer">ACPC 2025–26 Cutoff</a> mein LDCE aur Rollwala ka SEBC closing ~68% tha) ko dhyan mein rakhkar.
+      </p>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-num">215+</span>
+      <span class="hero-num-cap">Safe raw score out of 400<br>(Expected 80–85+ percentile)</span>
+    </div>
+  </header>
+
+  <!-- ANSWER-FIRST SUMMARY STRIP -->
+  <div class="verdict-row">
+    <div class="verdict-item">
+      <span class="verdict-val">200–220 / 400</span>
+      <p class="verdict-desc">Recent CMAT trends ke hisaab se 200–215+ marks par aam taur par 80–85 percentile mil jata hai (<a href="https://www.catmock.com/blog/cmat-score-vs-percentile-2027/" target="_blank" rel="noopener noreferrer">CatMock</a>, <a href="https://collegedunia.com/exams/cmat/score-vs-percentile" target="_blank" rel="noopener noreferrer">Collegedunia</a>).</p>
+    </div>
+    <div class="verdict-item">
+      <span class="verdict-val">~59 Net Correct</span>
+      <p class="verdict-desc">100 mein se sirf 72–75 accurate attempts (59 sahi, 14 galat = 222 marks) aapko target ke paar pahuncha denge.</p>
+    </div>
+    <div class="verdict-item">
+      <span class="verdict-val">No Sectional Cutoff</span>
+      <p class="verdict-desc">NTA mein koi sectional time limit ya sectional cutoff nahi hota (<a href="https://mba.hitbullseye.com/blog/cmat-exam.php" target="_blank" rel="noopener noreferrer">Hitbullseye</a>)—strong sections se weak section cover ho sakta hai.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 1: EXAM PATTERN & WEIGHTAGE TABLE -->
+  <section class="sec">
+    <h2>Har Section 80 Marks ka Hai, Par Scoring Speed Alag Hoti Hai</h2>
+    <p class="measure">
+      CMAT 2027 ek 3-hour (180 minutes) CBT exam hai jisme 5 mandatory sections se 20–20 MCQs aate hain—total 100 questions aur 400 marks (<a href="https://collegedunia.com/exams/cmat/exam-pattern" target="_blank" rel="noopener noreferrer">Collegedunia Exam Pattern</a>). Har sahi jawab par <strong>+4 marks</strong> milte hain aur galat jawab par <strong>−1 mark</strong> kat-ta hai; unattempted questions par koi penalty nahi hoti (<a href="https://mbakaro.in/cmat-2027-negative-marking/" target="_blank" rel="noopener noreferrer">MBA Karo</a>).
+    </p>
+    <p class="measure">
+      BCA background ki wajah se <strong>Logical Reasoning</strong> aur <strong>Quant/DI</strong> aapke sabse bharosemand score-drivers ban sakte hain, jabki <strong>Innovation &amp; Entrepreneurship</strong> kam mehnat mein 40+ marks dene wala differentiator hai (<a href="https://collegedunia.com/exams/cmat/score-vs-percentile" target="_blank" rel="noopener noreferrer">Collegedunia</a>).
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Section</th>
+            <th>Questions &amp; Marks</th>
+            <th>Target Attempts</th>
+            <th>Target Correct / Wrong</th>
+            <th>Target Score</th>
+            <th>Exam Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Logical Reasoning (LR)</td>
+            <td class="num">20 Qs · 80</td>
+            <td class="num">17</td>
+            <td class="num">15 sahi / 2 galat</td>
+            <td class="num-accent">58</td>
+            <td class="num">35 min</td>
+          </tr>
+          <tr>
+            <td>Quantitative Techniques &amp; DI</td>
+            <td class="num">20 Qs · 80</td>
+            <td class="num">15</td>
+            <td class="num">13 sahi / 2 galat</td>
+            <td class="num-accent">50</td>
+            <td class="num">45 min</td>
+          </tr>
+          <tr>
+            <td>Language Comprehension (LC)</td>
+            <td class="num">20 Qs · 80</td>
+            <td class="num">16</td>
+            <td class="num">13 sahi / 3 galat</td>
+            <td class="num-accent">49</td>
+            <td class="num">35 min</td>
+          </tr>
+          <tr>
+            <td>Innovation &amp; Entrepreneurship (I&amp;E)</td>
+            <td class="num">20 Qs · 80</td>
+            <td class="num">14</td>
+            <td class="num">11 sahi / 3 galat</td>
+            <td class="num-accent">41</td>
+            <td class="num">25 min</td>
+          </tr>
+          <tr>
+            <td>General Awareness (GA)</td>
+            <td class="num">20 Qs · 80</td>
+            <td class="num">11</td>
+            <td class="num">7 sahi / 4 galat</td>
+            <td class="num-accent">24</td>
+            <td class="num">20 min</td>
+          </tr>
+          <tr>
+            <td>Buffer &amp; Marked Review</td>
+            <td class="num">—</td>
+            <td class="num">—</td>
+            <td class="num">Doubtful Qs re-check</td>
+            <td class="num">—</td>
+            <td class="num">20 min</td>
+          </tr>
+          <tr class="total-row">
+            <td>Total Target Plan</td>
+            <td class="num">100 Qs · 400</td>
+            <td class="num">73</td>
+            <td class="num">59 sahi / 14 galat</td>
+            <td class="num-accent">222</td>
+            <td class="num">180 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- VISUAL 1: SVG HORIZONTAL BAR CHART -->
+    <figure>
+      <div class="fig-title">Logical Reasoning, Quant aur English milkar aapka 71% target score cover karte hain</div>
+      <svg viewBox="0 0 680 370" width="100%" role="img" aria-label="Section-wise target score out of 80 marks for CMAT 2027">
+        <line x1="210" y1="24" x2="210" y2="306" stroke="#CBD5E1" stroke-width="1"/>
+        <line x1="305" y1="24" x2="305" y2="306" stroke="#E2E8F0" stroke-width="1"/>
+        <line x1="400" y1="24" x2="400" y2="306" stroke="#E2E8F0" stroke-width="1"/>
+        <line x1="495" y1="24" x2="495" y2="306" stroke="#E2E8F0" stroke-width="1"/>
+        <line x1="590" y1="24" x2="590" y2="306" stroke="#CBD5E1" stroke-width="1"/>
+
+        <text x="210" y="330" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#475569">0</text>
+        <text x="305" y="330" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#475569">20</text>
+        <text x="400" y="330" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#475569">40</text>
+        <text x="495" y="330" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#475569">60</text>
+        <text x="590" y="330" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#475569">80 max</text>
+        <text x="400" y="356" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="13" fill="#475569">Target marks per section (out of 80)</text>
+
+        <text x="196" y="64" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="600" fill="#0F172A">Logical Reasoning</text>
+        <rect x="210" y="44" width="380" height="28" rx="3" fill="#F1F5F9"/>
+        <rect x="210" y="44" width="275.5" height="28" rx="3" fill="#1D4ED8"/>
+        <text x="602" y="63" font-family="Google Sans Code, monospace" font-size="14" font-weight="500" fill="#1E3A8A">58 / 80</text>
+
+        <text x="196" y="120" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="600" fill="#0F172A">Quant &amp; DI</text>
+        <rect x="210" y="100" width="380" height="28" rx="3" fill="#F1F5F9"/>
+        <rect x="210" y="100" width="237.5" height="28" rx="3" fill="#1D4ED8"/>
+        <text x="602" y="119" font-family="Google Sans Code, monospace" font-size="14" font-weight="500" fill="#1E3A8A">50 / 80</text>
+
+        <text x="196" y="176" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="600" fill="#0F172A">Language Comp.</text>
+        <rect x="210" y="156" width="380" height="28" rx="3" fill="#F1F5F9"/>
+        <rect x="210" y="156" width="232.75" height="28" rx="3" fill="#1D4ED8"/>
+        <text x="602" y="175" font-family="Google Sans Code, monospace" font-size="14" font-weight="500" fill="#1E3A8A">49 / 80</text>
+
+        <text x="196" y="232" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="600" fill="#0F172A">Innovation &amp; Entrep.</text>
+        <rect x="210" y="212" width="380" height="28" rx="3" fill="#F1F5F9"/>
+        <rect x="210" y="212" width="194.75" height="28" rx="3" fill="#0F766E"/>
+        <text x="602" y="231" font-family="Google Sans Code, monospace" font-size="14" font-weight="500" fill="#115E59">41 / 80</text>
+
+        <text x="196" y="288" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14.5" font-weight="600" fill="#0F172A">General Awareness</text>
+        <rect x="210" y="268" width="380" height="28" rx="3" fill="#F1F5F9"/>
+        <rect x="210" y="268" width="114" height="28" rx="3" fill="#64748B"/>
+        <text x="602" y="287" font-family="Google Sans Code, monospace" font-size="14" font-weight="500" fill="#334155">24 / 80</text>
+      </svg>
+      <figcaption>Blue bars = Core aptitude sections (157 marks total); Teal = High-ROI booster (I&amp;E, 41 marks); Slate = Bounded-effort section (GA, 24 marks). Based on NTA's +4/−1 scheme across 100 MCQs.</figcaption>
+    </figure>
+  </section>
+
+  <!-- SECTION 2: 75-DAY 3-PHASE STUDY PLAN (FULL-BLEED BAND) -->
+  <section class="sec full-bleed">
+    <h2>Teen Phases Mein 75 Din: Concept, Practice aur Full Mocks</h2>
+    <p class="measure">
+      25 November 2026 se 7 February 2027 tak exact <strong>75 active study days</strong> milte hain, aur uske baad 8–10 February ka 3-day light revision buffer rehta hai taaki 11 February ko aap fresh dimaag se exam dein.
+    </p>
+
+    <div class="phase-grid">
+      <div class="phase-col">
+        <span class="phase-dates">Phase 1 · 25 Nov – 29 Dec (35 Din)</span>
+        <h3>Foundation &amp; Syllabus Coverage</h3>
+        <p>Har core topic ke basics aur formula sheet banayein—is phase mein speed se zyada concept clarity aur accuracy par dhyan dein.</p>
+        <ul>
+          <li><strong>Quant:</strong> Arithmetic (Percentages, Ratio, Profit &amp; Loss, SI/CI, Work &amp; Time, TSD, Alligation &amp; Mixtures) complete karein.</li>
+          <li><strong>LR:</strong> Number Series, Coding-Decoding, Blood Relationship, Direction &amp; Distance, Linear Arrangements aur Venn Diagrams roz 15–20 Qs solve karein.</li>
+          <li><strong>English:</strong> Roz 1 Reading Comprehension passage + Synonyms/Antonyms, Idioms &amp; Grammar rules.</li>
+          <li><strong>Mock Goal:</strong> Har dusre Sunday 1 previous year CMAT paper solve karein (total 2 papers).</li>
+        </ul>
+      </div>
+
+      <div class="phase-col">
+        <span class="phase-dates">Phase 2 · 30 Dec – 23 Jan (25 Din)</span>
+        <h3>I&amp;E Booster, DI Sets &amp; Sectional Speed</h3>
+        <p>Ab Innovation &amp; Entrepreneurship aur Data Interpretation add karein, aur 30-minute timed sectional drills shuru karein.</p>
+        <ul>
+          <li><strong>I&amp;E (Game Changer):</strong> Entrepreneurship Theories &amp; Models, Corporate/Social/Rural/Women Entrepreneurship, Principles of Business Organisation, Motivation &amp; Leadership revise karein.</li>
+          <li><strong>Quant + DI:</strong> Probability, P&amp;C, Geometry/Mensuration formulas, aur roz 2 DI sets (Tabulation, Line Graph, Pie/Bar Chart).</li>
+          <li><strong>GA:</strong> Aug 2026 – Jan 2027 Current Affairs + Indian Constitution, Economics, Geography, History &amp; Science in Everyday Life.</li>
+          <li><strong>Mock Goal:</strong> Har week 1 full-length CBT mock + uska detailed error log (total 4 mocks).</li>
+        </ul>
+      </div>
+
+      <div class="phase-col">
+        <span class="phase-dates">Phase 3 · 24 Jan – 7 Feb (15 Din)</span>
+        <h3>Full-Length Mocks &amp; Accuracy Lock</h3>
+        <p>Koi naya heavy topic na uthayein. Sirf full mocks, formula revision, aur −1 negative marking control karne par kaam karein.</p>
+        <ul>
+          <li><strong>Mocks:</strong> Har alternate day 3-hour full CBT mock dein (total 6–7 mocks) exam-like environment mein.</li>
+          <li><strong>Analysis:</strong> Har mock ke baad 60 min sirf galat aur skipped questions par lagayein—repeated mistakes band karein.</li>
+          <li><strong>Revision:</strong> Quant formula notebook, I&amp;E concepts, aur 6-month GA one-liners daily 45 min revise karein.</li>
+          <li><strong>8–10 Feb Buffer:</strong> Koi heavy mock nahi—sirf Admit Card print, formula recap, aur poori neend.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- VISUAL 2: SVG 75-DAY GANTT TIMELINE -->
+    <figure>
+      <div class="fig-title">Aakhri 15 din sirf full-length mocks aur error analysis ke liye reserve rakhein</div>
+      <svg viewBox="0 0 680 310" width="100%" role="img" aria-label="75-day CMAT 2027 study timeline from November 25, 2026 to February 11, 2027">
+        <line x1="150" y1="30" x2="150" y2="244" stroke="#94A3B8" stroke-width="1"/>
+        <line x1="374" y1="30" x2="374" y2="244" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+        <line x1="514.8" y1="30" x2="514.8" y2="244" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="3 3"/>
+        <line x1="604.4" y1="30" x2="604.4" y2="244" stroke="#0F766E" stroke-width="1.2" stroke-dasharray="3 3"/>
+        <line x1="649.2" y1="30" x2="649.2" y2="244" stroke="#1E3A8A" stroke-width="2"/>
+
+        <text x="514.8" y="20" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12" fill="#115E59">21 Jan: City Slip</text>
+        <text x="604.4" y="20" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12" fill="#115E59">4 Feb: Admit</text>
+        <text x="649.2" y="20" text-anchor="end" font-family="Google Sans Code, monospace" font-size="12" font-weight="500" fill="#1E3A8A">11 Feb</text>
+
+        <text x="138" y="72" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Phase 1: Basics</text>
+        <rect x="150" y="52" width="224" height="30" rx="4" fill="#1D4ED8"/>
+        <text x="262" y="72" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#FFFFFF">35 Din · 2 Mocks</text>
+
+        <text x="138" y="128" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Phase 2: I&amp;E + Speed</text>
+        <rect x="374" y="108" width="160" height="30" rx="4" fill="#0F766E"/>
+        <text x="454" y="128" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="13" fill="#FFFFFF">25 Din · 4 Mocks</text>
+
+        <text x="138" y="184" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Phase 3: Mocks</text>
+        <rect x="534" y="164" width="96" height="30" rx="4" fill="#1E3A8A"/>
+        <text x="582" y="184" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12.5" fill="#FFFFFF">15 Din</text>
+
+        <text x="138" y="232" text-anchor="end" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="600" fill="#0F172A">Calm Buffer</text>
+        <rect x="630" y="214" width="19.2" height="26" rx="3" fill="#64748B"/>
+        <text x="618" y="232" text-anchor="end" font-family="Google Sans Code, monospace" font-size="12.5" fill="#334155">8–10 Feb</text>
+
+        <text x="150" y="268" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12.5" fill="#475569">25 Nov</text>
+        <text x="374" y="268" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12.5" fill="#475569">30 Dec</text>
+        <text x="534" y="268" text-anchor="middle" font-family="Google Sans Code, monospace" font-size="12.5" fill="#475569">24 Jan</text>
+        <text x="649.2" y="268" text-anchor="end" font-family="Google Sans Code, monospace" font-size="12.5" font-weight="500" fill="#1E3A8A">Exam Day</text>
+        <text x="400" y="296" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="13" fill="#475569">Total 12–13 full mocks + official NTA milestone dates (2026–27)</text>
+      </svg>
+      <figcaption>Official NTA CMAT 2027 dates (<a href="https://nta.ac.in/Download/Notice/Notice_20261123210726.pdf" target="_blank" rel="noopener noreferrer">NTA Public Notice, 23 Nov 2026</a>): City Slip 21 Jan, Admit Card 4 Feb, CBT Exam 11 Feb 2027.</figcaption>
+    </figure>
+  </section>
+
+  <!-- SECTION 3: COMPLETE SECTION-WISE SYLLABUS (FROM UPLOADED PDF) -->
+  <section class="sec">
+    <h2>CMAT 2027 Complete Section-Wise Syllabus</h2>
+    <p class="measure">
+      Aapke share kiye gaye <strong>CMAT Syllabus 2027</strong> (AICTE/NTA framework) ke saare 5 sections ke exact topics niche organize kiye gaye hain. Har section ke saath ek short strategy note hai taaki aap high-return topics pehle cover kar sakein.
+    </p>
+
+    <div style="margin-top: 32px;">
+      <!-- 1. QT & DI -->
+      <div class="syl-block">
+        <div class="syl-head">
+          <span class="syl-meta">20 Questions · 80 Marks · Target 50</span>
+          <h3>Quantitative Techniques &amp; Data Interpretation</h3>
+          <p class="syl-tip">Pehle Arithmetic (Percentages, Profit &amp; Loss, Ratio, Work &amp; Time, SI/CI, TSD) aur DI (Tabulation, Pie/Bar/Line) strong karein; Binomial Theorem ya heavy Geometry aakhir mein rakhein.</p>
+        </div>
+        <div class="syl-body">
+          <ul class="topic-grid">
+            <li>Tabulation</li>
+            <li>Mean, Mode, Median</li>
+            <li>Pipes and Cisterns</li>
+            <li>Simple Interest &amp; Compound Interest</li>
+            <li>Geometry</li>
+            <li>Probability</li>
+            <li>Time-Speed-Distance</li>
+            <li>Profit and Loss</li>
+            <li>Permutations &amp; Combinations</li>
+            <li>Percentages</li>
+            <li>In-equations</li>
+            <li>Quadratic &amp; Linear Equations</li>
+            <li>Line Graph</li>
+            <li>Mensuration</li>
+            <li>Alligation &amp; Mixtures</li>
+            <li>Number System</li>
+            <li>Algebra</li>
+            <li>Work and Time</li>
+            <li>Binomial Theorem</li>
+            <li>Pie Chart, Bar Chart</li>
+            <li>Ratio and Proportion</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2. Logical Reasoning -->
+      <div class="syl-block">
+        <div class="syl-head">
+          <span class="syl-meta">20 Questions · 80 Marks · Target 58</span>
+          <h3>Logical Reasoning</h3>
+          <p class="syl-tip">Ye sabse scoring section hai—Series, Coding-Decoding, Blood Relations, Arrangements aur Statements/Inferences ke PYQs practice karne se 15+ accurate attempts aaram se bante hain.</p>
+        </div>
+        <div class="syl-body">
+          <ul class="topic-grid">
+            <li>Analytical Reasoning</li>
+            <li>Analogy Test</li>
+            <li>Linear Arrangements</li>
+            <li>Blood Relationship Tests</li>
+            <li>Direction and Distance Test</li>
+            <li>Statements and Arguments</li>
+            <li>Statements Assumptions</li>
+            <li>Coding and Decoding</li>
+            <li>Inferences</li>
+            <li>Statements and Conclusion</li>
+            <li>Ranking Tests</li>
+            <li>Non-Verbal Reasoning</li>
+            <li>Sequencing</li>
+            <li>Matrix Arrangements</li>
+            <li>Symbol Based Problems</li>
+            <li>Venn Diagram</li>
+            <li>Cause and Effects</li>
+            <li>Number Series</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 3. Language Comprehension -->
+      <div class="syl-block">
+        <div class="syl-head">
+          <span class="syl-meta">20 Questions · 80 Marks · Target 49</span>
+          <h3>Language Comprehension</h3>
+          <p class="syl-tip">Daily 1 short Reading Comprehension passage + basic Grammar/Sentence Correction rules aur common Idioms/One-Word Substitution se 13+ correct answers safe ho jaate hain.</p>
+        </div>
+        <div class="syl-body">
+          <ul class="topic-grid">
+            <li>Reading Comprehension</li>
+            <li>English Usage Errors</li>
+            <li>English Grammar</li>
+            <li>Paragraph Completion</li>
+            <li>Synonyms</li>
+            <li>Antonyms</li>
+            <li>Jumbled Para</li>
+            <li>Sentence Correction</li>
+            <li>One-Word Substitution</li>
+            <li>Idioms</li>
+            <li>Phrases</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 4. Innovation & Entrepreneurship -->
+      <div class="syl-block">
+        <div class="syl-head">
+          <span class="syl-meta">20 Questions · 80 Marks · Target 41</span>
+          <h3>Innovation &amp; Entrepreneurship</h3>
+          <p class="syl-tip">Kam waqt mein sabse zyada return dene wala section—Entrepreneurship theories/models, Indian startup ecosystem, aur leadership principles ke conceptual notes 2 hafton mein cover ho jaate hain.</p>
+        </div>
+        <div class="syl-body">
+          <ul class="topic-grid">
+            <li>Concepts of Entrepreneurship</li>
+            <li>Overview of Entrepreneurship</li>
+            <li>Evolution of Entrepreneurship in India</li>
+            <li>Role of Entrepreneurship in Economic Development</li>
+            <li>Theories and Models of Entrepreneurship</li>
+            <li>Framework of Entrepreneurship Theories</li>
+            <li>Models of Entrepreneurship</li>
+            <li>Emerging Models of Corporate Entrepreneurship</li>
+            <li>Dimensions of Entrepreneurship</li>
+            <li>Entrepreneurial Society</li>
+            <li>Entrepreneurial Culture</li>
+            <li>Rural Entrepreneurship</li>
+            <li>Women Entrepreneurship</li>
+            <li>Emerging Trends in Social Entrepreneurship</li>
+            <li>Principles of Business Organisation</li>
+            <li>Motivation, Communication, and Leadership</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 5. General Awareness -->
+      <div class="syl-block">
+        <div class="syl-head">
+          <span class="syl-meta">20 Questions · 80 Marks · Target 24</span>
+          <h3>General Awareness</h3>
+          <p class="syl-tip">Daily max 25–30 min dein: Indian Constitution, Economy, Geography/History ke static notes + pichle 6 mahine ke National/International Economy, Sports aur Personalities in News cover karein.</p>
+        </div>
+        <div class="syl-body">
+          <ul class="topic-grid">
+            <li>Literature</li>
+            <li>Trade Awareness</li>
+            <li>Indian Constitution</li>
+            <li>Politics</li>
+            <li>Geography</li>
+            <li>Current Affairs (National &amp; International Economy)</li>
+            <li>Culture</li>
+            <li>Personalities in News</li>
+            <li>Economics</li>
+            <li>History</li>
+            <li>Sports News</li>
+            <li>Science in Everyday Life</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: DAILY 3-HOUR ROUTINE (TABLE #2) -->
+  <section class="sec">
+    <h2>College aur Internship ke Saath Roz 2.5–3 Ghante ka Practical Routine</h2>
+    <p class="measure">
+      BCA final year exams aur project/internship ke beech roz 6 ghante padhna realistic nahi hota. Isliye rozana sirf <strong>2.5 se 3 ghante ki consistent routine</strong> + Sunday mock slot sabse effective rehta hai:
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Time Slot</th>
+            <th>Duration</th>
+            <th>Mon – Fri Focus</th>
+            <th>Saturday / Sunday Focus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Morning (Fresh Mind)</td>
+            <td class="num">45 min</td>
+            <td>1 RC Passage + 10 Vocab/Idioms + 20 min GA/I&amp;E notes</td>
+            <td>Weekly GA &amp; I&amp;E quick recap</td>
+          </tr>
+          <tr>
+            <td>Evening (Core Block)</td>
+            <td class="num">90 min</td>
+            <td>Quant concept + 20 Qs (Mon/Wed/Fri) · LR + DI practice (Tue/Thu)</td>
+            <td>Full 3-hour CBT Mock Test (Sunday morning/afternoon)</td>
+          </tr>
+          <tr>
+            <td>Night (Light Wrap)</td>
+            <td class="num">30 min</td>
+            <td>Formula sheet revision + din bhar ke galat Qs ka 1-page error log</td>
+            <td>Mock test error analysis (60 min) + next week target</td>
+          </tr>
+          <tr class="total-row">
+            <td>Daily Total</td>
+            <td class="num">2.75 hrs</td>
+            <td>~14 hrs / weekday block (manageable with BCA)</td>
+            <td>Mock + Deep Analysis</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- PULL QUOTE -->
+  <blockquote class="pull-quote">
+    <p>“CMAT mein 100 mein se 100 sawal attempt nahi karne hote — 70 se 75 accurate attempts aur −1 negative marking se bachav hi 80–85+ percentile ki sabse badi key hai.”</p>
+  </blockquote>
+
+  <!-- SECTION 5: EXAM DAY STRATEGY (ASYMMETRIC SPLIT) -->
+  <section class="sec grid-12">
+    <div class="split-left">
+      <h2>11 February Exam Day Strategy</h2>
+      <p>Kyunki CMAT mein koi sectional timer nahi hota, sahi section order choose karne se aapko last 20 minute ka review buffer aaram se mil jata hai.</p>
+    </div>
+    <div class="split-right">
+      <ol class="step-list">
+        <li><strong>Pehle 45 min mein GA aur I&amp;E niptayein:</strong> In dono sections mein ya toh answer aata hai ya nahi—fast solve karke 60–65 marks ka base pehle hi lock kar lein.</li>
+        <li><strong>Agle 70 min mein LR aur English complete karein:</strong> LR (35 min) aur LC (35 min) mein accuracy highest rakhein; kisi bhi tricky puzzle par 3 minute se zyada mat atkein.</li>
+        <li><strong>Uske baad 45 min Quant &amp; DI ko dein:</strong> Pehle aasaan Arithmetic aur direct Table/Bar DI sets uthayein; lengthy calculation wale questions ko "Mark for Review" kar dein.</li>
+        <li><strong>Aakhri 20 min sirf Review aur Accuracy Check:</strong> Marked questions revisit karein aur blind tukke (random guesses) bilkul na lagayein—sirf tabhi educated guess lein jab aap 2 options clearly eliminate kar chuke hon (<a href="https://cracku.in/cmat-2027-negative-marking/" target="_blank" rel="noopener noreferrer">Cracku</a>).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- SOURCES -->
+  <section class="sources-sec">
+    <h2>Sources</h2>
+    <ol class="sources-list">
+      <li>Uploaded Reference: <a href="https://drive.google.com/file/d/1KfNW759RzVBm29dKMBM88HsTXudp1gEC/view?usp=drive_link" target="_blank"><strong>CMAT-Syllabus-2027.pdf</strong></a> (CollegeBatch / AICTE-prescribed 5-section topic breakdown) — complete section-wise syllabus topics integrated in Section 3.</li>
+      <li>National Testing Agency (NTA), <a href="https://nta.ac.in/Download/Notice/Notice_20261123210726.pdf" target="_blank" rel="noopener noreferrer">Public Notice: Inviting Online Applications for CMAT-2027 (23 November 2026)</a> — official schedule, 11 Feb 2027 exam date, 180-minute CBT format.</li>
+      <li>Admission Committee for Professional Courses (ACPC), Gujarat, <a href="https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/202605251744327138.pdf" target="_blank" rel="noopener noreferrer">MCA Opening-Closing Rank/Score on Government Seats (A.Y. 2025–26)</a> — SEBC closing CMAT percentiles for Gujarat government &amp; GIA colleges.</li>
+      <li>Collegedunia, <a href="https://collegedunia.com/exams/cmat/exam-pattern" target="_blank" rel="noopener noreferrer">CMAT Exam Pattern 2027</a> &amp; <a href="https://collegedunia.com/exams/cmat/score-vs-percentile" target="_blank" rel="noopener noreferrer">CMAT Score vs Percentile 2027</a> — section-wise structure, marking scheme, and expected 80–86 percentile score bands.</li>
+      <li>CatMock, <a href="https://www.catmock.com/blog/cmat-score-vs-percentile-2027/" target="_blank" rel="noopener noreferrer">CMAT Score vs Percentile 2027 Guide</a> — historical 200–215 marks benchmark for 80–85 percentile.</li>
+      <li>Hitbullseye, <a href="https://mba.hitbullseye.com/blog/cmat-exam.php" target="_blank" rel="noopener noreferrer">CMAT 2027 Exam Pattern &amp; Syllabus</a> — confirmation of no sectional time limit and no sectional cutoff.</li>
+      <li>Cracku, <a href="https://cracku.in/cmat-2027-negative-marking/" target="_blank" rel="noopener noreferrer">CMAT 2027 Negative Marking Rules</a> &amp; MBA Karo, <a href="https://mbakaro.in/cmat-2027-negative-marking/" target="_blank" rel="noopener noreferrer">CMAT 2027 Marking Scheme</a> — uniform +4/−1 scoring and educated-guess strategy.</li>
+    </ol>
+  </section>
+
+</main>
+</body>
+</html>
